@@ -1,3 +1,6 @@
 # dsa
-My DSA learning journey
-problem approach algorithm edge case comp;exity code 
+My DSA learning journey (imp notes only)
+problem 
+brute force 
+edge cases 
+approach 
