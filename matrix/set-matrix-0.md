@@ -50,11 +50,15 @@ store the row and col of the 0 element in two seperate arrays.
         
         
     }
-}```
+}
+```
 TC=O(m*n)
 SC=O(m+n)
+
 ## optimal approach 
+
 using the first row and col as the marker
+
 ```class Solution {
     public void setZeroes(int[][] matrix) {
       int r=matrix.length;
@@ -100,4 +104,5 @@ using the first row and col as the marker
       }
         
     }
-}```
+}
+```

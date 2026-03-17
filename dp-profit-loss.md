@@ -6,7 +6,7 @@ check all pairs (j>i) -> TC will be O(n²)
 ->single element return 0 
 ->price always decreasing return 0
 ##  approach
-class Solution {
+```class Solution {
     public int maxProfit(int[] prices) {
         int min=prices[0];
         int profit=0;
@@ -19,4 +19,4 @@ class Solution {
         }
         return profit;
     }
-}
+}```

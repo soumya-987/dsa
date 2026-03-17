@@ -3,7 +3,7 @@ majority element 169
 ## brute force 
 check all the elements occurance and return which is greater than n/2
 ## approach 
-class Solution {
+```class Solution {
     public int majorityElement(int[] nums) {
       int c=0;
       int cand=0;
@@ -19,4 +19,4 @@ class Solution {
       return cand;
         
     }
-}
+}```

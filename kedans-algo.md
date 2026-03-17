@@ -6,7 +6,7 @@ check the sum of all the subarrays -> TC very high
 -> all the numbers ngative ->output must be -1 and not reset to 0 
 -> single element returns that element only 
 ## approach 
-class Solution {
+```class Solution {
     public int maxSubArray(int[] nums) {
         int t=nums[0];
         int g=nums[0];
@@ -26,4 +26,4 @@ class Solution {
         return g;
         
     }
-}
+}```

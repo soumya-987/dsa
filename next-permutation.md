@@ -7,7 +7,7 @@ SC=O(n!)
 ## edge case 
 if the whole array is descending then we return the smallest permutation 
 ## approach 
-class Solution{
+```class Solution{
     public void nextPermutation(int[]nums){
         int n=nums.length;
         int i=n-2;
@@ -35,6 +35,7 @@ class Solution{
         }
     }
 }
+```
 TC=O(n)
 SC=O(1)
 ## eg

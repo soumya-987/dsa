@@ -5,7 +5,7 @@ any sorting algo taking O(n log n) TC
 ## edge cases 
 if all elements same or single element return as it is 
 ## approach 
-class Solution {
+```class Solution {
     public void sortColors(int[] nums) {
         int low=0;
         int mid=0;
@@ -28,4 +28,4 @@ class Solution {
         }
         
     }
-}
+}```

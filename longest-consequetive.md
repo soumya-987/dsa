@@ -12,7 +12,7 @@ SC=O(1) or O(log n)
 store the elements in a hash set -> avoid duplicasy 
 traverse through the hashset and for every element check if n-1 does NOT exists then start the length count and then keep adding till the sequence exists 
 ## code 
-import java.util.HashSet;
+```import java.util.HashSet;
 class Solution {
     public int longestConsecutive(int[] nums) {
         HashSet<Integer> set=new HashSet<>();
@@ -35,4 +35,4 @@ class Solution {
         
         
     }
-}
+}```
