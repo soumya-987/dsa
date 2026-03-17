@@ -1,7 +1,7 @@
 ## problem 
 return the elements in spiral order 
 ## optimal approach 
-class Solution {
+```class Solution {
     public List<Integer> spiralOrder(int[][] matrix) {
         int row=matrix.length;
         int col=matrix[0].length;
@@ -35,4 +35,4 @@ class Solution {
         }
         return ans;
     }
-}
+}```

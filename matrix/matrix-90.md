@@ -6,7 +6,7 @@ Time: O(n²)
 Space: O(n²)
 ## optimal approach 
 first do transpose of the matrix then reverse each row 
-class Solution {
+```class Solution {
     public void rotate(int[][] matrix) {
         int n=matrix.length;
         for (int i=0;i<n;i++){
@@ -24,4 +24,4 @@ class Solution {
             }
         }
     }
-}
+}```
