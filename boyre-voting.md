@@ -19,4 +19,14 @@ check all the elements occurance and return which is greater than n/2
       return cand;
         
     }
-}```
+}
+```
+## problem2
+majority element II 229
+## brute force 
+create a hashmap and store the frequency of every element then return the one greater than n/3
+## optimal approach 
+using boyre moore voting 
+this time using two candidates because n/3+n/3+n/3=1
+so there can be two elements appearing more than n/3
+```
