@@ -22,6 +22,8 @@ class Solution {
     }
 }
 ```
+TC: O(n³)
+SC: O(1)
 ## optimal approach 
 -> make a list of list of integers to store 
 -> sort the array given ( to avoid duplicates and use two pointer method)
@@ -59,3 +61,5 @@ class Solution {
     }
 }
 ```
+TC: O(n²)
+SC: O(1)

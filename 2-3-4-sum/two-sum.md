@@ -2,6 +2,8 @@
 two sum problem -> 1
 ## brute force 
 two nested loops working to look for the target 
+TC: O(n²)
+SC: O(1)
 ## optimal approach 
 using hashmap 
 -> run a loop 
@@ -25,3 +27,5 @@ class Solution{
     }
 }
 ```
+TC: O(n)
+SC: O(n)
