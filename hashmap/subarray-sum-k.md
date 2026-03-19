@@ -53,3 +53,4 @@ negative numbers
         
     }
 }```
+TC & SC = O(n)

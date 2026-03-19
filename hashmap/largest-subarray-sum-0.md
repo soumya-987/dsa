@@ -39,3 +39,4 @@ class Solution {
     }
 }
 ```
+TC & SC = O(n)
