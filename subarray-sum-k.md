@@ -3,7 +3,8 @@ return the num of subarrays with sum k -> 560
 ## brute force 
 two nestes loops
 adding on elements with the beginning position fixed then moving to the next element (next to beginning)
-time complexity-on^3
+Time: O(n²)
+Space: O(1)
 
 ## approach 
 PS=prefix sum
